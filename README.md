@@ -1,6 +1,8 @@
 Arty A7-100T XADC Demo
 ==============
   
+**Note:** This demo has been migrated to another repo. You can find instructions for working with the demo here: [Digilent Reference - Arty A7 XADC Demo](https://digilent.com/reference/programmable-logic/arty-a7/demos/xadc). Sources are version controlled in the [Arty-A7](https://github.com/Digilent/Arty-A7) repo.
+  
 Description
 --------------
 This project is a Vivado demo using the Arty A7-100T analog-to-digital converter ciruitry,switches and LEDs, written in Verilog. When programmed onto the board, voltage levels between 0 and 1 Volt are read off of the JXADC header. The 6 User LEDs increment from top right to left then bottom right to left as the voltage difference on the selected XADC pins gets larger. A0-A5 are single ended analog pins while A6-A7, A8-A9, and A10-A11 are differential ports. Each XADC channel can be selected depending on the switches position as shown in the following table.  See the Arty A7-100T's [Reference Manual](https://reference.digilentinc.com/reference/programmable-logic/arty-a7/reference-manual) for more information about how the Artix 7 FPGA's XADC is connected to header JXADC.
